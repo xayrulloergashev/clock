@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Roboto+Slab:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Slab", serif;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./marc-markstein-Xt7uaQg_Za8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  display: flex;
+  color: white;
+  align-items: center;
+  font-size: 50px;
+  justify-content: center;
+}
+#hour {
+  letter-spacing: 3px;
+}
+.location {
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 55px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 3px solid white;
+}
+.days {
+  color: white;
+  font-size: 40px;
+  padding-top: 10px;
+}
